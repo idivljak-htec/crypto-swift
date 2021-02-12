@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import crypto-swift
 
 class ViewController: UIViewController {
+    
+    let instance: Calculator = Calculator()
 
     override func viewDidLoad() {
         super.viewDidLoad()

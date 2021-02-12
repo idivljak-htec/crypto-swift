@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		018D39C6CB9A128491B7083BE4F37C0A /* crypto-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F193DDDA749A00181F8A441B1D9627 /* crypto-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1167AE865CF3E97919038E0B27603212 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB4A071C183FA53BB3BB1A48F068CC /* ReplaceMe.swift */; };
+		3032E62925D6AA22008CB484 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032E62825D6AA22008CB484 /* Calculator.swift */; };
 		30B3014A38A90AFB9384114BEA4F5C0E /* Pods-crypto-swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A808355CCA1722081FF04F791425CEA /* Pods-crypto-swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3146DD0965C79E2DCC98F436502E726D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		52A90D9B06AE78E0C2AF6372798C606E /* Pods-crypto-swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EC45BD2EDF4CBF837CB0E0531D32A5F /* Pods-crypto-swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D8F98839BFF12B0D8F0CD2082CDF4A /* Pods_crypto_swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_crypto_swift_Example.framework; path = "Pods-crypto-swift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F172D6681A2B6681287389BB5F84D25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		00D8F98839BFF12B0D8F0CD2082CDF4A /* Pods_crypto_swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_crypto_swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F172D6681A2B6681287389BB5F84D25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		15624F97B82FD7420F64B61857C2922B /* Pods-crypto-swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-crypto-swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		17EDF7482AD914DD453FE99064EAC738 /* Pods-crypto-swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-crypto-swift_Example-dummy.m"; sourceTree = "<group>"; };
 		198DA7997ED2B3B541B6B44FFF2B44AC /* crypto-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "crypto-swift.modulemap"; sourceTree = "<group>"; };
@@ -46,15 +46,16 @@
 		2509F1276A9B05CE7835E0F83808B40F /* Pods-crypto-swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-crypto-swift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		257F68C90F90E753BDE91B9DC89C483C /* crypto-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "crypto-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		2E2F58B6247AB5BB51526A3E325CA505 /* Pods-crypto-swift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-crypto-swift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3032E62825D6AA22008CB484 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		397080764111609033A7578E3A7A35AB /* Pods-crypto-swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-crypto-swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3AC74E869CAEDEEF3A3967D57FD3BC6C /* crypto-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "crypto-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3AC74E869CAEDEEF3A3967D57FD3BC6C /* crypto-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "crypto-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3B5CE2EE50DAD7361634B390D11F3580 /* crypto-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "crypto-swift-prefix.pch"; sourceTree = "<group>"; };
 		3EC45BD2EDF4CBF837CB0E0531D32A5F /* Pods-crypto-swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-crypto-swift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		403CD535BF4CF2E970128EBDF135DF33 /* Pods-crypto-swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-crypto-swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		45D1D6D905A34BE94FF1A49BEA1D5591 /* Pods-crypto-swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-crypto-swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A808355CCA1722081FF04F791425CEA /* Pods-crypto-swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-crypto-swift_Example-umbrella.h"; sourceTree = "<group>"; };
-		56C870E6790178521D608D9E4007A1EB /* crypto_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = crypto_swift.framework; path = "crypto-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B9B2F15599E5C344079C466D5CAD85B /* Pods_crypto_swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_crypto_swift_Tests.framework; path = "Pods-crypto-swift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C870E6790178521D608D9E4007A1EB /* crypto_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = crypto_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9B2F15599E5C344079C466D5CAD85B /* Pods_crypto_swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_crypto_swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE5B9FCE012A52DFFDBC0A01498B092 /* crypto-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "crypto-swift-dummy.m"; sourceTree = "<group>"; };
 		711913D298520A2F0466A01AA991F53B /* Pods-crypto-swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-crypto-swift_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,13 +63,12 @@
 		8087A05364D80449EB8C5F5226D3F78C /* crypto-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "crypto-swift-Info.plist"; sourceTree = "<group>"; };
 		94465D8A4B2AFDF2E6F553F954664787 /* crypto-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "crypto-swift.release.xcconfig"; sourceTree = "<group>"; };
 		9D3FD8E9059B4B9BE0123C30312BBE8F /* Pods-crypto-swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-crypto-swift_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C49950340EE29297668CC10D9574D0BD /* Pods-crypto-swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-crypto-swift_Example-Info.plist"; sourceTree = "<group>"; };
 		C4CD58B77D497879E88CE0FE200C5078 /* Pods-crypto-swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-crypto-swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D430B1BEE1D20B52F591D6E7BF7E59C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D430B1BEE1D20B52F591D6E7BF7E59C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E219C29726CBDB4274012F276758203B /* Pods-crypto-swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-crypto-swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7F193DDDA749A00181F8A441B1D9627 /* crypto-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "crypto-swift-umbrella.h"; sourceTree = "<group>"; };
-		F2BB4A071C183FA53BB3BB1A48F068CC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "crypto-swift/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
 		FA01AAAF114C39950E8CE751CBDF7F4C /* Pods-crypto-swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-crypto-swift_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,7 +128,7 @@
 		4772C3921A72A36CE39E77858C2471B0 /* crypto-swift */ = {
 			isa = PBXGroup;
 			children = (
-				F2BB4A071C183FA53BB3BB1A48F068CC /* ReplaceMe.swift */,
+				3032E62825D6AA22008CB484 /* Calculator.swift */,
 				AC168E2442E6F0BBB2C11905041783BA /* Pod */,
 				7A76904C4086BC000A32A61A3874B37F /* Support Files */,
 			);
@@ -384,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB290C7C498F9C532E17C72EDABD3F6 /* crypto-swift-dummy.m in Sources */,
-				1167AE865CF3E97919038E0B27603212 /* ReplaceMe.swift in Sources */,
+				3032E62925D6AA22008CB484 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,8 +654,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
