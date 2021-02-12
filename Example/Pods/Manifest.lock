@@ -1,0 +1,16 @@
+PODS:
+  - crypto-swift (0.1.0)
+
+DEPENDENCIES:
+  - crypto-swift (from `../`)
+
+EXTERNAL SOURCES:
+  crypto-swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  crypto-swift: 9ad249e0bc0d25188ff54823d6e731e527750822
+
+PODFILE CHECKSUM: 7ca12bef5dd24eed9b56959ddb4051689edadc32
+
+COCOAPODS: 1.10.1

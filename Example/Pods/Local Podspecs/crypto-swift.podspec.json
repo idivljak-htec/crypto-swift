@@ -1,0 +1,22 @@
+{
+  "name": "crypto-swift",
+  "version": "0.1.0",
+  "summary": "A short description of crypto-swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/idivljak-htec/crypto-swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "idivljak-htec": "idivljak@execom.eu"
+  },
+  "source": {
+    "git": "https://github.com/idivljak-htec/crypto-swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "crypto-swift/Classes/**/*"
+}
