@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'crypto-swift'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary      = "A CocoaPods library written in Swift"
   s.description  = <<-DESC
     This CocoaPods library helps you perform calculation.
