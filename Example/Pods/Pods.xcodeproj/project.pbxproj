@@ -100,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3032E63C25D6ACB2008CB484 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3032E62825D6AA22008CB484 /* Calculator.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		351A01E5371FA2B50677C55D11AA9112 /* Pods-crypto-swift_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +136,7 @@
 		4772C3921A72A36CE39E77858C2471B0 /* crypto-swift */ = {
 			isa = PBXGroup;
 			children = (
-				3032E62825D6AA22008CB484 /* Calculator.swift */,
+				3032E63C25D6ACB2008CB484 /* Classes */,
 				AC168E2442E6F0BBB2C11905041783BA /* Pod */,
 				7A76904C4086BC000A32A61A3874B37F /* Support Files */,
 			);

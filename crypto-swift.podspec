@@ -8,19 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'crypto-swift'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of crypto-swift.'
+  s.version          = '1.0.3'
+  s.summary      = "A CocoaPods library written in Swift"
+  s.description  = <<-DESC
+    This CocoaPods library helps you perform calculation.
+                     DESC
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.swift_versions = "5.0"
   s.homepage         = 'https://github.com/idivljak-htec/crypto-swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -30,7 +24,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'crypto-swift/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'crypto-swift' => ['crypto-swift/Assets/*.png']

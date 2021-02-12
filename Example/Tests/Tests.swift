@@ -1,5 +1,4 @@
 import XCTest
-import crypto-swift
 
 class Tests: XCTestCase {
     

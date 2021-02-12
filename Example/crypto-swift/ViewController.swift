@@ -7,15 +7,15 @@
 //
 
 import UIKit
-import crypto-swift
+import crypto_swift
 
 class ViewController: UIViewController {
     
     let instance: Calculator = Calculator()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print(instance.add(a: 5, b: 10))
     }
 
     override func didReceiveMemoryWarning() {
